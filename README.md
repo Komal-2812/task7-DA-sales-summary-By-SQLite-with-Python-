@@ -1,13 +1,13 @@
-📊 Task 7: Basic Sales Summary using SQLite & Python
+## 📊 Task 7: Basic Sales Summary using SQLite & Python
 
-📌 Objective
+## 📌 Objective
 
 This task demonstrates how to connect Python with a local SQLite database, perform basic sales analysis using SQL queries, and visualize the results using `matplotlib`.
 
 I am generate a **sales summary** showing the **total quantity sold** and **revenue** for each product, displayed as both printed output and a simple bar chart.
 
 
-🛠️ Tools & Libraries Used
+## 🛠️ Tools & Libraries Used
 
    **Python**: Core language for scripting
    
@@ -18,7 +18,7 @@ I am generate a **sales summary** showing the **total quantity sold** and **reve
    **matplotlib**: For basic data visualization
 
 
-📁 Dataset Details
+## 📁 Dataset Details
 
   A single SQLite database file named `sales_data.db` containing one table:
   
@@ -31,7 +31,7 @@ I am generate a **sales summary** showing the **total quantity sold** and **reve
   | quantity | INTEGER | Units sold             |
   | price    | REAL    | Price per unit         |  
 
-🆕 Sample Data
+## 🆕 Sample Data
 
 | Product        | Quantity | Price  |
 |----------------|----------|--------|
@@ -48,7 +48,7 @@ I am generate a **sales summary** showing the **total quantity sold** and **reve
 
 
 
-⚙️ What This Project Does :-
+## ⚙️ What This Project Does :-
    📥 **Connects** to `sales_data.db` (creates it if not found)
    
    🧱 **Creates the `sales` table** if it doesn't already exist
@@ -68,7 +68,7 @@ I am generate a **sales summary** showing the **total quantity sold** and **reve
    💾 **Saves the chart** as `sales_chart.png`
    
 
-✅ Output Example
+## ✅ Output Example
 
   📋 Console Output
 
@@ -86,11 +86,11 @@ I am generate a **sales summary** showing the **total quantity sold** and **reve
   | Sticky Notes  | 25        | 37.5    |
 
  
- 📊 Bar Chart Output:
+ ## 📊 Bar Chart Output:
  A bar chart displaying revenue by product (saved as `sales_chart.png`)
 
 
-🧠 Key Learning Outcomes
+## 🧠 Key Learning Outcomes
 
  Writing and executing **basic SQL queries inside Python**
  Using `pandas` to **manipulate and display SQL query results**
