@@ -6,6 +6,7 @@ This task demonstrates how to connect Python with a local SQLite database, perfo
 
 I am generate a **sales summary** showing the **total quantity sold** and **revenue** for each product, displayed as both printed output and a simple bar chart.
 
+
 🛠️ Tools & Libraries Used
 
    **Python**: Core language for scripting
@@ -15,6 +16,7 @@ I am generate a **sales summary** showing the **total quantity sold** and **reve
    **pandas**: To load SQL results into DataFrames
    
    **matplotlib**: For basic data visualization
+
 
 📁 Dataset Details
 
@@ -28,6 +30,7 @@ I am generate a **sales summary** showing the **total quantity sold** and **reve
   | product  | TEXT    | Product name           |
   | quantity | INTEGER | Units sold             |
   | price    | REAL    | Price per unit         |  
+
 
 ⚙️ What This Project Does :-
    📥 **Connects** to `sales_data.db` (creates it if not found)
@@ -48,19 +51,23 @@ I am generate a **sales summary** showing the **total quantity sold** and **reve
    
    💾 **Saves the chart** as `sales_chart.png`
 
+
 ✅ Output Example
 
  📋 Console Output:
-    | product  | total_qty | revenue |
-    |----------|-----------|---------|
-    | Pen      | 10        | 50.0    |
-    | Notebook | 5         | 100.0   |
-    | Pencil   | 15        | 30.0    |
-    | Eraser   | 20        | 20.0    |
-    | Marker   | 7         | 70.0    |
 
+  | product  | total_qty | revenue |
+  |----------|-----------|---------|
+  | Pen      | 10        | 50.0    |
+  | Notebook | 5         | 100.0   |
+  | Pencil   | 15        | 30.0    |
+  | Eraser   | 20        | 20.0    |
+  | Marker   | 7         | 70.0    |
+ 
+ 
  📊 Bar Chart Output:
  A bar chart displaying revenue by product (saved as `sales_chart.png`)
+
 
 🧠 Key Learning Outcomes
 
