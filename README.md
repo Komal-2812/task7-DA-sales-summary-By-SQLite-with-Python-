@@ -31,6 +31,21 @@ I am generate a **sales summary** showing the **total quantity sold** and **reve
   | quantity | INTEGER | Units sold             |
   | price    | REAL    | Price per unit         |  
 
+🆕 Sample Data
+
+| Product        | Quantity | Price  |
+|----------------|----------|--------|
+| Water Bottle   | 8        | 15.0   |
+| Stapler        | 4        | 60.0   |
+| Desk Lamp      | 2        | 300.0  |
+| Whiteboard     | 1        | 1200.0 |
+| Printer Paper  | 20       | 2.5    |
+| Sticky Notes   | 25       | 1.5    |
+| Mouse Pad      | 6        | 75.0   |
+| USB Cable      | 10       | 120.0  |
+| Headphones     | 3        | 450.0  |
+| Laptop Stand   | 2        | 850.0  |
+
 
 ⚙️ What This Project Does :-
    📥 **Connects** to `sales_data.db` (creates it if not found)
@@ -54,16 +69,21 @@ I am generate a **sales summary** showing the **total quantity sold** and **reve
 
 ✅ Output Example
 
- 📋 Console Output:
+📋 Console Output
 
-  | product  | total_qty | revenue |
-  |----------|-----------|---------|
-  | Pen      | 10        | 50.0    |
-  | Notebook | 5         | 100.0   |
-  | Pencil   | 15        | 30.0    |
-  | Eraser   | 20        | 20.0    |
-  | Marker   | 7         | 70.0    |
- 
+  | product       | total_qty | revenue |
+  |---------------|-----------|---------|
+  | Whiteboard    | 1         | 1200.0  |
+  | Laptop Stand  | 2         | 1700.0  |
+  | Headphones    | 3         | 1350.0  |
+  | USB Cable     | 10        | 1200.0  |
+  | Desk Lamp     | 2         | 600.0   |
+  | Mouse Pad     | 6         | 450.0   |
+  | Stapler       | 4         | 240.0   |
+  | Water Bottle  | 8         | 120.0   |
+  | Printer Paper | 20        | 50.0    |
+  | Sticky Notes  | 25        | 37.5    |
+
  
  📊 Bar Chart Output:
  A bar chart displaying revenue by product (saved as `sales_chart.png`)
