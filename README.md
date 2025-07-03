@@ -9,8 +9,11 @@ I am generate a **sales summary** showing the **total quantity sold** and **reve
 🛠️ Tools & Libraries Used
 
  **Python**: Core language for scripting
+ 
  **SQLite (`sqlite3`)**: Lightweight builtin database for storage and querying
+ 
  **pandas**: To load SQL results into DataFrames
+ 
  **matplotlib**: For basic data visualization
 
 📁 Dataset Details
