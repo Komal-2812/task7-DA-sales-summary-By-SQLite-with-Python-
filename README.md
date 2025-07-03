@@ -47,6 +47,7 @@ I am generate a **sales summary** showing the **total quantity sold** and **reve
 | Laptop Stand   | 2        | 850.0  |
 
 
+
 ⚙️ What This Project Does :-
    📥 **Connects** to `sales_data.db` (creates it if not found)
    
@@ -65,11 +66,11 @@ I am generate a **sales summary** showing the **total quantity sold** and **reve
    📊 **Displays a bar chart** of revenue by product
    
    💾 **Saves the chart** as `sales_chart.png`
-
+   
 
 ✅ Output Example
 
-📋 Console Output
+  📋 Console Output
 
   | product       | total_qty | revenue |
   |---------------|-----------|---------|
