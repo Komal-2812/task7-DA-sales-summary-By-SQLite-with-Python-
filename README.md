@@ -20,13 +20,14 @@ I am generate a **sales summary** showing the **total quantity sold** and **reve
 
   A single SQLite database file named `sales_data.db` containing one table:
   
-   Table: `sales`
-  
-   Column   | Type    | Description            
-   id       | INTEGER | Primary key (auto)     
-   product  | TEXT    | Product name           
-   quantity | INTEGER | Units sold             
-   price    | REAL    | Price per unit         
+ Table: `sales`
+
+  | Column   | Type    | Description            |
+  |----------|---------|------------------------|
+  | id       | INTEGER | Primary key (auto)     |
+  | product  | TEXT    | Product name           |
+  | quantity | INTEGER | Units sold             |
+  | price    | REAL    | Price per unit         |  
 
 ⚙️ What This Project Does :-
    📥 **Connects** to `sales_data.db` (creates it if not found)
@@ -50,12 +51,13 @@ I am generate a **sales summary** showing the **total quantity sold** and **reve
 ✅ Output Example
 
  📋 Console Output:
- product  | total_qty | revenue 
- Pen      | 10        | 50.0    
- Notebook | 5         | 100.0   
- Pencil   | 15        | 30.0    
- Eraser   | 20        | 20.0    
- Marker   | 7         | 70.0    
+    | product  | total_qty | revenue |
+    |----------|-----------|---------|
+    | Pen      | 10        | 50.0    |
+    | Notebook | 5         | 100.0   |
+    | Pencil   | 15        | 30.0    |
+    | Eraser   | 20        | 20.0    |
+    | Marker   | 7         | 70.0    |
 
  📊 Bar Chart Output:
  A bar chart displaying revenue by product (saved as `sales_chart.png`)
