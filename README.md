@@ -1,0 +1,1 @@
+# task7-DA-sales-summary-By-SQLite-with-Python-
