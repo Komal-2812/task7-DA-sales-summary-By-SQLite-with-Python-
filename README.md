@@ -4,7 +4,7 @@
 
 This task demonstrates how to connect Python with a local SQLite database, perform basic sales analysis using SQL queries, and visualize the results using `matplotlib`.
 
-You’ll generate a **sales summary** showing the **total quantity sold** and **revenue** for each product, displayed as both printed output and a simple bar chart.
+I am generate a **sales summary** showing the **total quantity sold** and **revenue** for each product, displayed as both printed output and a simple bar chart.
 
 🛠️ Tools & Libraries Used
  **Python**: Core language for scripting
